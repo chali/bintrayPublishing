@@ -1,0 +1,5 @@
+rootProject.name = 'bintray-publishing-example'
+include 'core'
+include 'server'
+project(':core').name = 'bintray-publishing-example-core'
+project(':server').name = 'bintray-publishing-example-server'
